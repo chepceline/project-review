@@ -24,7 +24,7 @@
 
 <body>
     
-    {% block content %}
+    
     <div class="container my-5">
 
         <div class="row">
@@ -34,6 +34,9 @@
             <div class="col-6 auth-form-wrapper px-5 pb-5">
                 <a class="logo text-center my-5" href="{% url 'index'%}">wwwrate</a>
                 <hr>
+                {% block content %}
+
+                {% endblock %}
                 
             </div>
             <div class="col-md-3">
@@ -43,7 +46,7 @@
 
         
     </div>
-    {%endblock%}
+    
 
 
     {% block scripts %}
