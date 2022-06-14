@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'rate',
     'cloudinary',
     'bootstrap5',
+    'mathfilters',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
