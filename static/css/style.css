@@ -32,7 +32,7 @@ li {
 .auth-form-wrapper .logo {
   font-family: 'Rum Raisin', cursive;
   font-size: 3rem;
-  color: #d6495c;
+  color: #0a0a0a;
   text-decoration: none;
   text-align: center;
 }
@@ -71,8 +71,8 @@ li {
 }
 
 .auth-form-wrapper .form .btn {
-  background-color: #d6495c;
-  border: 1px solid #d6495c;
+  background-color: #070707;
+  border: 1px solid #0c0c0c;
   text-transform: uppercase;
   border-radius: 0;
 }
@@ -129,14 +129,14 @@ nav .nav-wrapper .menu ul li a {
 }
 
 .content_wrapper .searchform form .btn {
-  background-color: #d6495c;
-  border: 1px solid #d6495c;
+  background-color: #0e0d0d;
+  border: 1px solid #111111;
   outline: none;
 }
 
 .content_wrapper .searchform form input {
   outline: none;
-  border: 1px solid #d6495c;
+  border: 1px solid #0e0d0d;
 }
 
 .projects {
@@ -169,7 +169,7 @@ nav .nav-wrapper .menu ul li a {
 }
 
 .single_project .thumbnail .project_name {
-  background-color: #d6495c;
+  background-color: #0c0c0c;
   width: 100%;
   bottom: 0;
   height: 50px;
@@ -192,8 +192,8 @@ nav .nav-wrapper .menu ul li a {
 }
 
 .single_project .thumbnail:hover .project_name {
-  background: -webkit-gradient(linear, left bottom, left top, from(#d6495c), color-stop(#d6495c), to(transparent));
-  background: linear-gradient(0deg, #d6495c, #d6495c, transparent);
+  background: -webkit-gradient(linear, left bottom, left top, from(#0a0a0a), color-stop(#0a0a0a), to(transparent));
+  background: linear-gradient(0deg, #080808, #080808, transparent);
   width: 100%;
   bottom: 0;
   height: 100%;
@@ -250,7 +250,7 @@ nav .nav-wrapper .menu ul li a {
 }
 
 .profile h3, .profile h4 {
-  color: #d6495c;
+  color: #0a0a0a;
 }
 
 .profile .profile_pic {
@@ -272,13 +272,13 @@ nav .nav-wrapper .menu ul li a {
 }
 
 .profile .btn {
-  color: #d6495c;
-  border: 1px solid #d6495c;
+  color: #0e0d0d;
+  border: 1px solid #0a0a0a;
 }
 
 .profile .btn:hover {
-  border: 1px solid #d6495c;
-  background-color: #d6495c;
+  border: 1px solid #0a0a0a;
+  background-color: #070707;
   color: white;
 }
 
@@ -291,7 +291,7 @@ nav .nav-wrapper .menu ul li a {
 
 .profile .details .project-overall-rating {
   font-size: 3rem;
-  color: #d6495c;
+  color: #0c0b0c;
   font-weight: 900;
 }
 
@@ -303,7 +303,7 @@ nav .nav-wrapper .menu ul li a {
 }
 
 .profile .details .category-rating .ratingbar .bar {
-  background-color: #d6495c;
+  background-color: #0c0c0c;
   height: 100%;
 }
 
@@ -313,15 +313,15 @@ nav .nav-wrapper .menu ul li a {
 }
 
 .stars {
-  color: #d6495c;
+  color: #070707;
 }
 
 hr {
-  color: #d6495c;
+  color: #0e0d0d;
 }
 
 .live-button, .repo-button {
-  background-color: #d6495c;
+  background-color: #0a0a0a;
   color: white !important;
   border-radius: 0;
 }
@@ -335,7 +335,7 @@ hr {
 #newProjectModal .modal-dialog .modal-content .modal-header .modal-title,
 #updateProfileForm .modal-dialog .modal-content .modal-header .modal-title,
 #newProjectForm .modal-dialog .modal-content .modal-header .modal-title {
-  color: #d6495c;
+  color: #080808;
 }
 
 #newProjectModal .modal-dialog .modal-content .modal-body input, #newProjectModal .modal-dialog .modal-content .modal-body textarea,
@@ -351,7 +351,7 @@ hr {
 #newProjectModal .modal-dialog .modal-content .modal-body .btn,
 #updateProfileForm .modal-dialog .modal-content .modal-body .btn,
 #newProjectForm .modal-dialog .modal-content .modal-body .btn {
-  background-color: #d6495c;
+  background-color: #0a0a0a;
   border-radius: 0;
   outline: none;
   border: none;
@@ -359,14 +359,14 @@ hr {
 }
 
 .content_wrapper > button {
-  border: 1px solid #d6495c;
-  color: #d6495c;
+  border: 1px solid #0c0c0c;
+  color: #0e0d0d;
 }
 
 .content_wrapper > button:hover {
-  background-color: #d6495c;
+  background-color: #131212;
   color: white;
-  border: 1px solid #d6495c;
+  border: 1px solid #0a0a0a;
 }
 
 .live_link, .github_link {
@@ -380,6 +380,6 @@ hr {
 }
 
 .live_link:hover, .github_link:hover {
-  color: #d6495c;
+  color: #0e0d0d;
 }
 /*# sourceMappingURL=style.css.map */
