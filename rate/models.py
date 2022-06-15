@@ -28,7 +28,7 @@ class Project(models.Model):
     screenshot = CloudinaryField('images')
     posted_at = models.DateTimeField(auto_now_add=True)
     repository_url = models.CharField(max_length=200, blank=True)
-    live_url = models.CharField(max_length=200, blank=True)
+    live_url =models.CharField(max_length=200, blank=True)
     
     owner = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name='projects')
 
