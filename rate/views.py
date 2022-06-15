@@ -121,3 +121,4 @@ class ProjectsList(APIView):
         serializers = ProjectsSerializer(all_projects, many=True)
 
         return Response(serializers.data)
+
